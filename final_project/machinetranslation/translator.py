@@ -35,5 +35,5 @@ def french_to_english(frenchtext):
     return english_text
 
 
-print(english_to_french(''))
-print(french_to_english('Bonjour'))
+print(english_to_french('this project is for translate from English to French and from French to English'))
+print(french_to_english('Je suis du Pakistan'))
