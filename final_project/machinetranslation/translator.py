@@ -5,9 +5,8 @@ from pandas import json_normalize
 
 load_dotenv()
 
-APIKEY = 'uWAYXkJ8FEq3zFG3_aJvrZWwCQ-U18DnX50F34ikbMxn'
-URL = 'https://api.au-syd.language-translator.watson.cloud.ibm.com/' \
-                 'instances/c9ece11c-4b91-498d-9569-a8e6e14e0b08'
+APIKEY = 'YOUR apikey'
+URL = 'Your URL'
 
 authenticator = IAMAuthenticator(APIKEY)
 language_translator = LanguageTranslatorV3(
